@@ -69,12 +69,7 @@
                     $(`#q${index}Feedback`).attr("class", "bg-success text-white");
                     $(`#markImg${index}`).html("<img src='img/checkmark.png' alt='checkmark'>");
 
-                    if(index <= 5){
-                        score += 20;
-                    }
-                    else{
-                        score += 12.5;
-                    }
+                    score += 12.5;
                 }
 
                 // Function: Behavior for wrong answer
@@ -176,7 +171,7 @@
                     }
 
                     // Display total score
-                    $("#totalScore").html("Total Score: " + score + " / 137.5");
+                    $("#totalScore").html("Total Score: " + score + " / 100");
                     if(score < 80){
                         $("#totalScore").css("background-color", "rgb(255,0,0)");
                         $("#eogMessage").html("Sorry, you need to brush up on your US Geography");
