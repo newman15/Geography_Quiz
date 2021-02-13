@@ -1,2 +1,2 @@
-# cst336-lab2
-US geography quiz utilizing jQuery
+# Hangman App Javascript
+A hangman web application created using Javascript.
