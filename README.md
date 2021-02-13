@@ -1,2 +1,2 @@
-# Hangman App Javascript
-A hangman web application created using Javascript.
+# Geography Quiz Javascript
+A geography quiz web application created using Javascript and HTML.
